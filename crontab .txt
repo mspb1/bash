@@ -1,1 +1,2 @@
 30 18 * * 5 /bin/bash /home/kali/backup.sh1 >> /home/kali/backup.log
+0 8 * * * /usr/sbin/logwatch --output mail --mailto root --detail Med
